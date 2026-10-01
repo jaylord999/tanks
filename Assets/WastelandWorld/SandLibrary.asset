@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a60e53470b3d3489082dffde0583b8, type: 3}
+  m_Name: SandLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::Tanks.World.Sand.SandLibrary
+  sandTypes:
+  - displayName: Sand01
+    material: {fileID: 2100000, guid: fa542ab47cc7bb3418c35926f8cab963, type: 2}
+    regionWeight: 1.4
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand02
+    material: {fileID: 2100000, guid: b5ced793883eff9439dfb6d7848aead2, type: 2}
+    regionWeight: 0.75
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand03
+    material: {fileID: 2100000, guid: fc3b1278c2f433e4c95790c289231b42, type: 2}
+    regionWeight: 1.1
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand04
+    material: {fileID: 2100000, guid: 30b98ef5fd6acd34887a6be1418f261a, type: 2}
+    regionWeight: 0.6
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand05
+    material: {fileID: 2100000, guid: 9fbbd38626fd1904daa084e924084008, type: 2}
+    regionWeight: 0.9
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand06
+    material: {fileID: 2100000, guid: d7e3cf47d90a5e644bec3ccaf0112d15, type: 2}
+    regionWeight: 0.5
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand07
+    material: {fileID: 2100000, guid: 07a9a9609108e4b4caf4730f4f6e0761, type: 2}
+    regionWeight: 1.25
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand08
+    material: {fileID: 2100000, guid: 90b02265239ffbb42a9f884240dad27a, type: 2}
+    regionWeight: 0.7
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand09
+    material: {fileID: 2100000, guid: 986453e07e20ec94e89bb72c03fc8974, type: 2}
+    regionWeight: 1
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand10
+    material: {fileID: 2100000, guid: 02e59e8bb6d659f4c85823d2b6745c7b, type: 2}
+    regionWeight: 0.55
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand11
+    material: {fileID: 2100000, guid: 8debb04501dd4a141b2f477ac8afad1f, type: 2}
+    regionWeight: 0.85
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  - displayName: Sand12
+    material: {fileID: 2100000, guid: f9c1633c55cd61745bf439dcc2869d19, type: 2}
+    regionWeight: 0.65
+    elevationBias: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    normalStrength: 1
+  fallbackMaterial: {fileID: 2100000, guid: 33bd583432772a94cacc4e7f44cb45e2, type: 2}
+  autoPopulateFromProject: 1

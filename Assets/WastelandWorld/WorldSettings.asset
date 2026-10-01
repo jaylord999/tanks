@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c0d50e82fc6634a94e71c65082eecc, type: 3}
+  m_Name: WorldSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Tanks.World.WorldSettings
+  worldSeed: 123456
+  chunkSize: 64
+  viewDistanceInChunks: 3
+  terrainResolution: 64
+  preloadChunkPadding: 1
+  terrainBaseHeight: 0
+  terrainReliefScale: 1
+  maxHillHeight: 45.5
+  hillFrequency: 0.0035
+  hillAmplitude: 1.39
+  grainAmplitude: 0.1
+  grainFrequency: 0.09
+  hillOctaves: 4
+  hillFlattening: 0.2
+  depressionAmplitude: 0.35
+  depressionFrequency: 0.0022
+  heightDistribution: 1.35
+  terrainRegionScale: 0.00055
+  terrainRegionWarp: 0.0032
+  terrainRegionWarpStrength: 90
+  openRegionShare: 0.45
+  unevenRegionShare: 0.35
+  massiveHillRegionShare: 0.2
+  smallHillAmplitude: 0.75
+  smallHillFrequency: 0.019
+  unevenAmplitude: 0.62
+  unevenFrequency: 0.062
+  massiveHillMultiplier: 2.1
+  massiveHillFrequency: 0.0011
+  massiveHillRounding: 0.55
+  sandVariationScale: 0.0012
+  sandWarpFrequency: 0.009
+  sandWarpStrength: 26
+  sandVariationBlend: 0.4
+  sandDetailFrequency: 0.02
+  sandElevationInfluence: 0.35
+  sandRangeScale: 3.2
+  maxSandTypesPerChunk: 4
+  sandBlendMode: 0
+  sandTextureWorldSize: 16
+  randomizeSandUvRotation: 1
+  enableFog: 1
+  fogColor: {r: 0.76, g: 0.68, b: 0.55, a: 1}
+  fogStartDistance: 40
+  fogEndDistance: 420
+  fogDensityPower: 1
+  ambientSkyColor: {r: 0.62, g: 0.56, b: 0.46, a: 1}
+  ambientGroundColor: {r: 0.32, g: 0.27, b: 0.21, a: 1}
+  sunColor: {r: 1, g: 0.94, b: 0.82, a: 1}
+  sunIntensity: 1.35
+  sunAngles: {x: 38, y: 140}
+  showDebugOverlay: 1
+  logChunkEvents: 0
